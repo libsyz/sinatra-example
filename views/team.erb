@@ -1,0 +1,12 @@
+
+
+<h1> This is the team </h1>
+
+# iterate through the team members and show them
+
+<% @team_members.each do |tm| %>
+  <img src="<%= tm.image_url %>" height="200" alt="">
+  <h3> <%= tm.name %> </h3>
+  <p> <%= tm.description %> </p>
+<% end %>
+

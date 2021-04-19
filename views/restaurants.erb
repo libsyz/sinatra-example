@@ -1,0 +1,12 @@
+
+
+<h1> This is the restaurants </h1>
+
+# iterate through the restaurants and show them
+
+<% @restaurants.each do |r| %>
+  <h3> <%= r.name %> </h3>
+  <p> <%= r.address %> </p>
+  <p> <%= r.rating %> </p>
+<% end %>
+
